@@ -23,12 +23,11 @@ Os números ímpares são [1, 3, 5]
 lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 
 # Fazer a partir daqui...
-
-lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
+lista = [*map(float, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 lista_2 = []
 
-for i in lista:
-    if i %2 !=0:
-        lista_2.append(i)
+for numero in lista:
+    if numero %2 !=0:
+        lista_2.append(numero)
 
 print(f'Os número ímpares são:{lista_2}')
