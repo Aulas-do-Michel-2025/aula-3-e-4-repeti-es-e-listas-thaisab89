@@ -35,6 +35,13 @@ segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os núme
 
 # Fazer a partir daqui
 
+
+
+
+
+
+
+
 primeira_lista = [*map(int, input("Digite a sua primeira lista (separando os números por vírgula): ").split(","))]
 segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os números por vírgula): ").split(","))]
 
