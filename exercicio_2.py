@@ -24,14 +24,10 @@ lista = [*map(int, input("Digite a sua lista (separando os números por vírgula
 
 # Fazer a partir daqui...
 
-
-
-
-
-lista = [*map(float, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
+lista_original = [*map(float, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 lista_2 = []
 
-for numero in lista:
+for numero in lista_original:
     if numero %2 !=0:
         lista_2.append(numero)
 
