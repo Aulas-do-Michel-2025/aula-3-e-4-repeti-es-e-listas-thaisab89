@@ -40,13 +40,13 @@ O cálculo de média já foi feito em sala e pode ser usado de exemplo.
 lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], [1, 0, 0], [100, 100, 70], [99, 12, 12]]
 
 # Fazer a partir daqui
-lista_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], [1, 0, 0], [100, 100, 70], [99, 12, 12]]
-tamanho_lista = len(lista_organismos)
+lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], [1, 0, 0], [100, 100, 70], [99, 12, 12]]
+tamanho_lista = len(lista_de_organismos)
 maior_media = 0
-menor_media = 0
+indice_maior = 0
 
 for i in range(tamanho_lista):
-    organismo = lista_organismos[i]
+    organismo = lista_de_organismos[i]
     
     soma = 0 
     for medicao in organismo:
@@ -56,6 +56,6 @@ for i in range(tamanho_lista):
 
     if media > maior_media:
         maior_media = media
-        maior_media = i
+        indice_maior = i
 
-print(f"O organismo com maior média é o da posição {maior_media} da lista.")
+print(f"O organismo com maior média é o da posição {indice_maior} da lista.")
