@@ -27,6 +27,6 @@ lista = [*map(int, input("Digite a sua lista (separando os números por vírgula
 lista_2 = []
 
 for numero in lista:
-    if numero %2 !=0:
+    if numero %2!=0:
         lista_2.append(numero)
 print(f'Os números ímpares são {lista_2}')
