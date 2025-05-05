@@ -34,13 +34,12 @@ primeira_lista = [*map(int, input("Digite a sua primeira lista (separando os nú
 segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os números por vírgula): ").split(","))]
 
 # Fazer a partir daqui
-
 primeira_lista = [*map(int, input("Digite a sua primeira lista (separando os números por vírgula): ").split(","))]
 segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os números por vírgula): ").split(","))]
 
 if len(primeira_lista) == len(segunda_lista):
-    print('Ambas as listas têm o mesmo tamanho')
+    print('Ambas')
 elif len(primeira_lista) > len(segunda_lista):
-    print('A maior lista é a Primeira') 
+    print('Primeira') 
 else:
-    print('A maior lista é a Segunda')
+    print('Segunda')
